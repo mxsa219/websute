@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Specs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #111, #444);
+      color: white;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .top-bar a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      background-color: #666;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .top-bar a:hover {
+      background-color: #888;
+    }
+
+    .top-bar h1 {
+      margin: 0 auto;
+      text-align: center;
+      font-weight: normal;
+      letter-spacing: 2px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 40px;
+      gap: 30px;
+    }
+
+    .image-section img {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .requirements-section {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      flex: 1;
+    }
+
+    .requirement-box {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .requirement-box ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .requirement-box li {
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .image-section, .requirements-section {
+        width: 90%;
+      }
+      .top-bar {
+        flex-direction: column;
+      }
+      .top-bar a {
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="top-bar">
+  <a href="index.html">Home</a>
+  <h1>JOB SPECS</h1>
+</div>
+
+<div class="container">
+  <div class="image-section">
+    <img src="c:\Users\me\OneDrive - New City College\website 100000000\job pic.jpg" alt="Job Opportunity Image">
+    <!-- Replace src with your local image if needed -->
+  </div>
+
+  <div class="requirements-section">
+    <div class="requirement-box">
+      <p><strong>Requirement:</strong></p>
+      <ul>
+        <li>2+ years work experience.</li>
+        <li>Must have completed University or Apprenticeship.</li>
+      </ul>
+    </div>
+
+    <div class="requirement-box">
+      <ul>
+        <li>Must build websites using HTML, CSS and JAVASCRIPT.</li>
+        <li>Websites must be compatible with all devices and browsers.</li>
+      </ul>
+    </div>
+
+    <div class="requirement-box">
+      <ul>
+        <li>Create websites which are very appealing.</li>
+        <li>Build and manage database.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
